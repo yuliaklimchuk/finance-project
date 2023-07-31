@@ -1,0 +1,5 @@
+.btn {
+  @include font(16px, 700, 18px, 0em);
+  background: var(--btn-bg-color);
+  border-radius: 22px;
+}

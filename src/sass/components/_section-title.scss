@@ -1,0 +1,6 @@
+.section-title {
+font-family: var(--secondary-font);
+@include font(34px, 400, 39px, 0.04em);
+text-align: center;
+text-transform: uppercase;
+}
