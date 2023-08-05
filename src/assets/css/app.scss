@@ -1,3 +1,22 @@
-body {
-    background-color: #788b78;
+@charset "UTF-8";
+
+@import './base/reset';
+@import './base/common';
+@import './components/container';
+@import './layout/header';
+@import './layout/social-list';
+
+
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #2196F3;
+  --third-text-color: #757575;
+  --four-text-color: #FFFFFF;
+  --primary-bg-color: #ffb8ca;
+  --secondary-bg-color: #2196F3;
+  --third-bg-color: #f0d1a5;
+  --fourth-bg-color: #d3d6d0;
+  --main-font: 'DM Sans', sans-serif;
+  --secondary-font: 'Titan One', cursive;
 }

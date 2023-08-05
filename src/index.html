@@ -1,8 +1,25 @@
-{% set title = "Home" %}
-{% set bodyClass = "is-home" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AShFinance</title>
+    <meta name="description" content="{{ meta_description }}">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
+    <div class="page-wrapper" id="pageWrapper">
+        @@include('./_html/_base/_includes/_header.html')
 
-{% extends "_html/_base/_layouts/_default.html" %}
+        <main>
+            Content
+        </main>
 
-{% block content %}
-    <h1>Content</h1>
-{% endblock %}
+        @@include('./_html/_base/_includes/_footer.html')
+    </div>    
+    <script src="assets/js/app.min.js"></script>
+</body>
+</html>

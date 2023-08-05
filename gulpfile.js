@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 //плагіни для html
 const argv = require('yargs').argv;
-const nunjucks = require('gulp-nunjucks');
+const fileinclude = require('gulp-file-include');
 const browserSync = require('browser-sync').create();
 const projectConfig = require('./projectConfig.json');
 const path = projectConfig.path;
@@ -108,7 +108,10 @@ function browsersync() {
 //gulp таск для html
 function njk() {
     return gulp.src(path.src.html)
-        .pipe(nunjucks.compile())
+        .pipe(fileinclude({
+            prefix: '@@',
+            basepath: '@file'
+          }))
         .pipe(gulp.dest(path.dist.html))
         .on('end', browserSync.reload);
 }
