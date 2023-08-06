@@ -3,8 +3,10 @@
 @import './base/reset';
 @import './base/common';
 @import './components/container';
+@import './components/btn';
 @import './layout/header';
 @import './layout/social-list';
+@import './layout/hero';
 
 
 
@@ -13,7 +15,7 @@
   --secondary-text-color: #2196F3;
   --third-text-color: #757575;
   --four-text-color: #FFFFFF;
-  --primary-bg-color: #ffb8ca;
+  --primary-bg-color: #F5F4FA;
   --secondary-bg-color: #2196F3;
   --third-bg-color: #f0d1a5;
   --fourth-bg-color: #d3d6d0;
