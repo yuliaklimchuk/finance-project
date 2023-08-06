@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const ghpages = require("gh-pages");
 //плагіни для html
 const argv = require('yargs').argv;
 const fileinclude = require('gulp-file-include');
@@ -256,3 +257,7 @@ exports.default = gulp.series(
     gulp.parallel(njk, scss, script, image, font),
     gulp.parallel(browsersync, watch)
 );
+
+module.exports.ghp = (cb) => {
+    ghpages.publish('./dist', cb);
+  }
