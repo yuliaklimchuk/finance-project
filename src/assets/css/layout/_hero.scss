@@ -1,14 +1,14 @@
 .hero{
-    max-width: 767px;
+    // max-width: 767px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: var(--primary-bg-color);
-    @media screen and (min-width: 768px) {
-          max-width: 1199px;
-        }
-    @media screen and (min-width: 1200px) {
-            max-width: 1600px;
-            }
+    // @media screen and (min-width: 768px) {
+    //       max-width: 1199px;
+    //     }
+    // @media screen and (min-width: 1200px) {
+    //         max-width: 1600px;
+    //         }
 }
 
 .hero-wrapper{
