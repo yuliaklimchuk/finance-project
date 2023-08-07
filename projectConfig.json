@@ -4,7 +4,7 @@
             "srcPath": "./src",
             "components": "/_components",
             "html": [
-                "/**/*.html"
+                "/*.html"
             ],
             "style": [
                 "/assets/css/app.scss"
