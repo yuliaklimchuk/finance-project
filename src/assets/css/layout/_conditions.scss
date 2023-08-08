@@ -33,17 +33,6 @@
     font-style: italic;
     font-size: 25px;
 }
-.conditions-text {
-    line-height: 1.5;
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    @media screen and (min-width: 1200px) {
-        font-size: 20px;
-        
-        }
-}
 
 .conditions-img {
     width: 250px;
