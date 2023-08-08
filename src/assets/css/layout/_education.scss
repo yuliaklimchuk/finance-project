@@ -1,0 +1,37 @@
+.education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--primary-bg-color);
+}
+
+.education-box{
+    display: flex;
+    align-items: center;
+}
+
+.education-img{
+    width: 120px;
+    margin-right: 10px;
+    @media screen and (min-width: 768px) {
+        margin-right: 70px;
+      }
+      @media screen and (min-width: 768px) {
+        width: 200px;
+        margin-right: 200px;
+      }
+}
+.education-wraper{
+    max-width: 740px;
+     @media screen and (min-width: 1200px) {
+        max-width: 1150px;
+      }
+}
+
+.education-title{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.education-list{
+    list-style: inside;
+}
