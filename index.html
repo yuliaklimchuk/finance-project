@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
     <div class="page-wrapper" id="pageWrapper">
@@ -52,8 +53,8 @@
             <section class="hero">
     <div class="container">
         <div class="hero-wrapper">
-            <img class="hero-img" src="./assets/img/hero-img.jpg" alt="фото фінансового консультанту" >
-            <div class="hero-content">
+            <img class="hero-img animate__animated animate__fadeInLeft" src="./assets/img/hero-img.jpg" alt="фото фінансового консультанту" >
+            <div class="hero-content animate__animated animate__fadeInRight">
                 <h1 class="hero-title">Навчу тебе жити з грошима!</h1>
                 <p class="hero-text">Будемо знайомі - я Аліна Шинкарчук, працюю фінансовим консультантом. 
                     Допоможу розібратись як заощадити і примножити свої кошти. Не зволікай, змінюй життя на краще вже зараз!
@@ -66,7 +67,7 @@
 
             <section class="services">
     <div class="container">
-        <div class="services-wrapper">
+        <div class="services-wrapper animate__animated animate__fadeInLeft">
             <h2 class="services-title">Послуги</h2>
             <ul class="services-list">
                 <li class="services-item">
@@ -86,7 +87,7 @@
             <section class="conditions">
     <div class="container">
         <div class="conditions-wrapper">
-            <div class="conditions-list-box">
+            <div class="conditions-list-box animate__animated animate__fadeInLeft wow">
                 <h2 class="conditions-title">Тобі потрібен фінансовий консультант, якщо: </h2>
                 <ol class="conditions-list">
                     <li class="conditions-item">
@@ -106,12 +107,13 @@
                     </li>
                 </ol>
             </div> 
-            <img src="./assets/img/conditions-img.jpg" alt="фото фінансового консультанту за роботою" class="conditions-img">
+            <img src="./assets/img/conditions-img.jpg" alt="фото фінансового консультанту за роботою" class="conditions-img animate__animated animate__fadeInRight wow">
         </div>         
     </div>
 </section>
             <section class="experience">
     <div class="container">
+        <div class="animate__animated animate__fadeInLeft wow">
         <h2 class="experience-title">Мій досвід в цифрах </h2>
         <div class="experience-wrapper">
                 <ul class="experience-list">
@@ -138,12 +140,13 @@
                     </li>
                     
                 </ul>
-        </div>         
+        </div>   
+    </div>      
     </div>
 </section>
             <section id='consultation' class="consultation" >
     <div class="container">
-        <div class="consultation-wraper">
+        <div class="consultation-wraper animate__animated animate__fadeInRight wow">
             <div class="consultation-box">
             <img src="./assets/img/messages-icon.jpg" alt="іконка повідомлення" class="consultation-img">
                 <div class="text-box">
@@ -160,8 +163,8 @@
             <section id='support' class="support" >
     <div class="container">
         <div class="support-wraper">
-                <img src="./assets/img/support-img.jpg" alt="фото фінансового консультанту" class="support-img">
-                <div class="support-box">
+                <img src="./assets/img/support-img.jpg" alt="фото фінансового консультанту" class="support-img animate__animated animate__fadeInLeft wow">
+                <div class="support-box animate__animated animate__fadeInRight wow">
                     <div class="support-text-box">
                         <h2 class="support-title">Річний супровід</h2>
                         <p class="support-maintext text">починається з першої зустрічі <span class="accent-text">"Аналіз"</span> - знайомство де ви зможете розповісти свою ситуацію, питання, що вас хвилюють, ваш поточний фін стан та цілі.
@@ -185,11 +188,11 @@
 </section>
             <section id='education' class="education" >
     <div class="container">
-        <div class="education-box">
+        <div class="education-box animate__animated animate__fadeInLeft wow">
             <img src="./assets/img/educationc-img.png" alt="іконка навчання" class="education-img">
             <h2 class="education-title">Навчання фінансової грамотності</h2>
         </div>
-        <div class="education-wraper">
+        <div class="education-wraper animate__animated animate__fadeInRight wow">
             <p class="text"><span class="accent-text"> Фінансова грамотність</span>- це надзвичайно корисна навичка у сучасному світі.
                 <br>Пропоную відвідати <span class="accent-text">груповий навчальний курс</span> offline, щоб грамотно управляти власними фінансами та підготувати фінансову подушку безпеки в активній фазі кар’єри.
                 <br>Цей курс охоплює всі необхідні знання з фінансової грамотності: <span class="accent-text">від мистецтва заощаджувати – до можливостей інвестування</span>. Для забезпечення фінансового захисту та впевненості у своєму майбутньому. 
@@ -206,7 +209,7 @@
 </section>
             <section class="enrollment">
     <div class="container">
-        <div class="enrollment-wrapper">
+        <div class="enrollment-wrapper animate__animated animate__fadeInLeft wow">
             <h2 class="enrollment-title">Хочеш на навчання? Залишай номер телефону</h2>
             <form class="enrollment-form">
                 <div class="form-field">
