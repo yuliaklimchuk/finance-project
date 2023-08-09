@@ -27,11 +27,10 @@
       }
 }
 
-.education-title{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 .education-list{
     list-style: inside;
+}
+
+.education-item{
+    display: flex;
 }
