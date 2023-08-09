@@ -25,6 +25,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
+    transition: color 250ms var(--timing-function);
     @media screen and (min-width: 768px) {
         margin: 0;
         width: 60%;
@@ -37,6 +38,9 @@
 
 .footer-link{
     color: var(--four-text-color);
+    &:hover, .contact-tel:focus {
+        color: var(--secondary-text-color);
+      }
 }
 
 .footer-container > .social-list > .social-list__item{

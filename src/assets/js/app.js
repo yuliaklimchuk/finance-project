@@ -1,1 +1,3 @@
-console.log("test js");
+const WOW = require('wow.js');
+
+new WOW().init();
